@@ -79,3 +79,25 @@ button {
 button:hover {
   background-color: hsl(223, 55%, 47%);
 }
+
+.icon-container {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0 1rem;
+}
+
+.social-icon {
+  filter: invert(25%) sepia(67%) saturate(2500%) hue-rotate(215deg);
+  opacity: 70%;
+}
+
+.circle-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px; 
+  height: 30px; 
+  border: 0.3px solid hsl(223, 87%, 63%); 
+  border-radius: 50%; 
+  cursor: pointer;
+}
