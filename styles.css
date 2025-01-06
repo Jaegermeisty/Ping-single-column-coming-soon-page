@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 20px;
-  min-height: 100vh;
+  height: 100vh;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -20,6 +20,7 @@ p {
   align-items: center;
   text-align: center;
   flex-direction: column;
+  margin: 2rem 0 5rem;
 }
 
 h1 {
@@ -83,7 +84,7 @@ button:hover {
 .icon-container {
   display: flex;
   gap: 1rem;
-  margin: 1rem 0 1rem;
+  margin: 3rem 0 1rem;
 }
 
 .social-icon {
@@ -100,4 +101,9 @@ button:hover {
   border: 0.3px solid hsl(223, 87%, 63%); 
   border-radius: 50%; 
   cursor: pointer;
+}
+
+.copyright-text {
+  font-size: 0.7rem;
+  color: hsl(0, 0%, 59%);
 }
