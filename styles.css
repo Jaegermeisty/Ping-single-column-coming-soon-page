@@ -42,7 +42,7 @@ h1 {
 }
 
 .email-container {
-  margin: 1rem 0 4rem 0;
+  margin: 1rem 0 0 0;
 }
 
 input {
@@ -79,6 +79,15 @@ button {
 
 button:hover {
   background-color: hsl(223, 55%, 47%);
+}
+
+.email-response {
+  margin: 0.5rem 10rem 3rem 0;
+  font-size: 0.8rem;
+  font-style: italic;
+  font-weight: 300;
+  color: hsl(354, 100%, 66%);
+  visibility: hidden;
 }
 
 .icon-container {
