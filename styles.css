@@ -42,12 +42,20 @@ h1 {
 }
 
 .email-container {
-  margin: 1rem 0 0 0;
+  margin: 1rem 0 3rem 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.input-n-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 input {
   width: 14rem;
-  padding: 1rem 2.5rem;
+  padding: 1rem 2.5rem 1rem 1.5rem;
   border-radius: 10rem;
   border-width: 0.05rem;
   border-style: solid;
@@ -71,7 +79,7 @@ button {
   font-weight: 600;
   color: white;
   background-color: hsl(223, 87%, 63%);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   cursor: pointer;  
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s ease;
@@ -82,12 +90,12 @@ button:hover {
 }
 
 .email-response {
-  margin: 0.5rem 10rem 3rem 0;
   font-size: 0.8rem;
   font-style: italic;
   font-weight: 300;
   color: hsl(354, 100%, 66%);
-  visibility: hidden;
+  margin-top: 0.5rem; 
+  margin-left: 1.5rem; 
 }
 
 .icon-container {
